@@ -1,0 +1,367 @@
+    /* GLOBAL
+========================================= */
+
+@media all and (max-device-width:700px){
+
+html {
+    background-color: #fff;
+    font-family: 'Sansita Swashed', cursive;
+}
+
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Cormorant Garamond', serif;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    font-weight: 300;
+    word-spacing: 8px;
+}
+
+h1 {
+    color: #000000;
+}
+
+h2 {
+    color: #333333;
+    font-size: 150%;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+h2:after {
+    display: block;
+    height: 2px;
+    background-color: #911c00;
+    width: 150px;
+    content: " ";
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+h3 {
+    font-size: 160%;
+}
+
+p {
+    font-family: 'Dancing Script', cursive;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+/* MENU
+========================================= */
+
+.fixed-top {
+    position: fixed;
+    z-index: 1030;
+    background-color: #911c00 !important;
+}
+
+nav {
+    align-self: center;
+    color: white;
+    height: 50px;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+
+}
+
+nav ul li {
+    list-style-type: none;
+    padding: 15px;
+    font-size: 60%;
+}
+
+/*ACCUEIL
+==============================================*/
+
+#accueil {
+    background-image: url(../ressources/ImagesVillaSilvius/vigne7b.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.home-title {
+    position: absolute;
+    top: 25%;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+.home-title h1 {
+    font-size: 200%;
+    color: #000000;
+    text-shadow: #fff 1px 1px 10px;
+}
+
+.home-title h1 span {
+    font-weight: 500;
+    font-size: 130%;
+}
+
+/* PRESENTATION
+========================================= */
+
+#presentation {
+    background-image: url(Ressources/ImagesVillaSilvius/logopageweb.jpg);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 70%;
+}
+
+#presentationgilles {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.gilles-text p {
+    font-size: 150%;
+    word-spacing: 0px;
+    line-height: 30px;
+    letter-spacing: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+    word-spacing: 2px;
+    text-shadow: #fff 5px 5px 10px;
+}
+
+.gilles-text p strong {
+    color: #11d33e;
+}
+
+#gilles img {
+    border-radius: 50%;
+    width: 40%;
+    height: auto;
+    margin-top: 15%;
+}
+
+
+/* NOTRE HISTOIRE
+========================================= */
+
+#histoire {
+    background-image: url(../ressources/ImagesVillaSilvius/assietteminerale.jpg);
+    height: 120vh;
+    background-position: center;
+    background-size: cover;
+}
+
+#histoire h2 {
+    grid-area: title;
+    color: aliceblue;
+    margin-top: 0px
+}
+
+#contenu-histoire {
+    height: 400px;
+    margin-top: 30px;
+}
+
+.histoire-text p {
+    margin-top: 20px;
+    font-size: 130%;
+    margin-left: 10px;
+    margin-right: 10px;
+    line-height: 30px;
+    color: #ffffff;
+    text-shadow: #000000 1px 1px 10px;
+}
+
+
+/* LE DOMAINE
+=========================================== */
+
+#ledomaine {
+    background-image: url(Ressources/ImagesVillaSilvius/ventoux.JPG);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 140vh;
+    margin-top: 40px;
+}
+
+#ledomaine p {
+    font-size: 130%;
+    line-height: 30px;
+    margin-top: 20px;
+    text-align: center;
+    margin-left: 2px;
+    margin-right: 2px;
+    text-shadow: #000000 1px 1px 10px;
+    color: #ffffff;
+}
+
+#ledomaine h2 {
+    color: #fdfdfd;
+}
+
+/* GALERIES PHOTOS
+=========================================== */
+
+#carousel_img {
+    display: none;
+}
+
+/* NOS VINS
+=========================================== */
+
+
+.vin {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    margin-bottom: 20px;
+    height: 350px;
+}
+
+.vin h3 {
+    color: black;
+    font-weight: 400;
+}
+
+.vin h4 {
+    font-size: 150%;
+    font-weight: 100;
+}
+
+.vin span {
+    font-weight: 100;
+    font-size: 40%;
+    position: relative;
+    top: -15px;
+    left: 2px;
+}
+
+.vinrose {
+    background-color: #911c00;
+    color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    margin-bottom: 20px;
+    height: 350px;
+}
+
+.vinrose h4 {
+    font-size: 150%;
+    font-weight: 100;
+}
+
+.title {
+    padding: 10px 10px 0 10px;
+    border-bottom: 1px solid #e3e0e0;
+}
+
+
+.content ul {
+    list-style: none;
+    padding: 20px;
+    font-weight: 300;
+    line-height: 35px;
+}
+
+
+
+.img_vins {
+    display: none;
+}
+
+/* CONTACT
+=========================================== */
+
+.contact-infos {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-infos p {
+    font-size: 20px;
+    line-height: 2;
+}
+
+.champs {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+
+.contact-largeur {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.adress {
+    margin-left: 90px;
+}
+
+.contact-form1 {
+    display: flex;
+    flex-direction: row;
+    padding-left: 15px;
+    margin-bottom: 30px;
+}
+
+.contact-form2 {
+    padding-left: 15px;
+    margin-bottom: 30px;
+}
+
+.contact-message {
+    width: 100%;
+    margin-top: 10px;
+    ;
+}
+
+.contact-form {
+    width: 100%;
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-contact {
+    background-color: #911c00;
+    color: #fff;
+    margin: 15px;
+    border: none;
+}
+
+iframe{
+    width: 100%;
+}
+
+/* FOOTER
+=========================================== */
+
+footer {
+    background-color: #000;
+    color: #fff;
+    height: 100px;
+    padding: 20px 20px;
+    text-align: center;
+}
+
+footer p {
+    font-size: 100%;
+}
+}
