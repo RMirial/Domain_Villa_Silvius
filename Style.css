@@ -97,7 +97,7 @@ nav ul li {
 ==============================================*/
 
 #accueil {
-    background-image: url(../ressources/ImagesVillaSilvius/vigne7b.jpg);
+    background-image: url(Ressources/ImagesVillaSilvius/vigne7b.jpg);
     height: 100vh;
     background-position: center;
     background-size: cover;
@@ -170,7 +170,7 @@ nav ul li {
 ========================================= */
 
 #histoire {
-    background-image: url(../ressources/ImagesVillaSilvius/assietteminerale.jpg);
+    background-image: url(Ressources/ImagesVillaSilvius/assietteminerale.jpg);
     height: 100vh;
     background-position: center;
     background-size: cover;
