@@ -190,12 +190,12 @@
             background-image: url(Ressources/ImagesVillaSilvius/ventoux.JPG);
             background-size: cover;
             background-attachment: fixed;
-            height: 170vh;
+            height: 200vh;
             margin-top: 40px;
         }
 
         #ledomaine p {
-            font-size: 130%;
+            font-size: 120%;
             font-weight: 020;
             line-height: 30px;
             margin-top: 20px;
