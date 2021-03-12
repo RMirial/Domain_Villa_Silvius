@@ -229,12 +229,12 @@ nav ul li {
     background-image: url(Ressources/ImagesVillaSilvius/ventoux.JPG);
     background-size: cover;
     background-attachment: fixed;
-    height: 100vh;
+    height: 140vh;
     margin-top: 60px;
 }
 
 #ledomaine p {
-    font-size: 180%;
+    font-size: 160%;
     font-weight: 600;
     word-spacing: 2px;
     line-height: 30px;
